@@ -1,0 +1,81 @@
+.vegan-recipes-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .vegan-recipes-container h1 {
+    text-align: center;
+    color: #a52a2a;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .vegan-recipes-container p {
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .recipes-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .recipe-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #ffffff;
+    border: 1px solid #593329;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    text-align: left;
+  }
+  
+  .recipe-image-container {
+    position: relative;
+  }
+  
+  .recipe-image {
+    width: 80%;
+    height: 100%;
+    object-fit: none;
+    transform: translate(14%, -5%);
+
+  }
+  
+  .recipe-name {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color: #593329;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .recipe-info {
+    padding: 50px;
+  }
+  
+  .recipe-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    height: 20%;
+    color: #925849;
+  }
+  
+  .recipe-icon {
+    display: flex;
+    width: 20%;
+    height: 20%;
+    transform: translate(400%, -50%);
+  }

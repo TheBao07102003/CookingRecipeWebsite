@@ -1,0 +1,87 @@
+/* Trang Signup */
+.signup-page {
+    background-color: #593329;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  /* Container chính */
+  .container {
+    width: 996px;
+    height: 568px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  /* Phần bên trái */
+  .left-section {
+    flex: 1;
+    padding: 84px 97px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Logo và text Sign Up */
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .logo {
+    width: 95px;
+    height: 98px;
+  }
+  
+  .signup-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #593329;
+  }
+  
+  /* Các input */
+  .input-container {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .input-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .input-field {
+    width: 358px;
+    height: 25px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  /* Các button */
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+  }
+  
+  /* Phần bên phải */
+  .right-section {
+    flex: 1;
+  }
+  
+  .opening-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

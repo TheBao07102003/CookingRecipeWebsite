@@ -1,0 +1,78 @@
+.japan-recipes-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.japan-recipes-container h1 {
+  text-align: center;
+  color: #a52a2a;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.japan-recipes-container p {
+  text-align: left;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.recipes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recipe-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #ffffff;
+  border: 1px solid #593329;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  text-align: left;
+}
+
+.recipe-image-container {
+  width: 300px; /* or a fixed width, e.g., 300px */
+  height: 300px; /* Fixed height */
+  display: flex;
+  justify-content: center; /* Centering the image */
+  align-items: center; /* Centering the image */
+  margin: 50px 0;
+}
+
+/* Enforce image size */
+.recipe-image {
+  width: 100%; /* Make the image width 100% of its parent container */
+  height: 100%; /* Make the image height 100% of its parent container */
+  border-radius: 50%; /* Optional: Adds rounded corners */
+}
+
+.recipe-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #593329;
+  margin: 50px 0 0 25px; /* Add space around the name */
+}
+
+.recipe-info {
+  padding: 50px;
+}
+
+.recipe-info p {
+  margin: 10px 0;
+  font-size: 16px;
+  height: 20%;
+  color: #925849;
+}
+
+.recipe-icon {
+  display: flex;
+  width: 20%;
+  height: 20%;
+  transform: translate(400%, -50%);
+}

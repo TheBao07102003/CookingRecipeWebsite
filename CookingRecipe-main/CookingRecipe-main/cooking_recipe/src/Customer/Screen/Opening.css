@@ -1,0 +1,71 @@
+/* Trang chính */
+.opening-page {
+  background-color: #593329; /* Màu nền */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Container chính */
+.container {
+  width: 996px;
+  height: 568px;
+  background-color: white; /* Nền trắng */
+  border-radius: 8px;
+  display: flex;
+  overflow: hidden; /* Đảm bảo không bị tràn */
+}
+
+/* Phần bên trái */
+.left-section {
+  flex: 1;
+  padding: 84px 97px; /* Khoảng cách padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Text Welcome */
+.welcome-text {
+  color: #593329;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Logo và text CookCook */
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Khoảng cách giữa logo và text */
+}
+
+.logo {
+  width: 95px;
+  height: 98px;
+}
+
+.cookcook-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffc86e; /* Màu của chữ CookCook */
+}
+
+/* Các button */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 38px; /* Khoảng cách giữa các button */
+}
+
+/* Phần bên phải */
+.right-section {
+  flex: 1;
+}
+
+.opening-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,56 @@
+.recipes-container {
+  font-family: Arial, sans-serif;
+  background-color: #f7ede1;
+  color: #4f3826;
+  text-align: center;
+  padding: 40px; /* Increased padding */
+  min-height: 100vh; /* Make full viewport height */
+  box-sizing: border-box;
+}
+
+.recipes-container h1 {
+  font-size: 3rem; /* Larger title */
+  margin-bottom: 40px; /* More space below title */
+}
+
+.recipes-section {
+  margin: 40px 0; /* More vertical space between sections */
+}
+
+.recipes-section h2 {
+  font-size: 2rem; /* Larger section headers */
+  margin-bottom: 30px;
+}
+
+.recipes-options {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* More space between options */
+  flex-wrap: wrap;
+}
+
+.recipe-option {
+  text-align: center;
+  cursor: pointer;
+  width: 150px; /* Wider options */
+  transition: transform 0.3s ease;
+}
+
+.recipe-option img {
+  width: 120px; /* Larger images */
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  transition: transform 0.3s ease;
+}
+
+.recipe-option:hover img {
+  transform: scale(1.15); /* More pronounced hover effect */
+}
+
+.recipe-option p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.1rem; /* Slightly larger text */
+}
